@@ -292,20 +292,9 @@ p{
 
 /* contact page Css*/
 
-.contact_page .contact_col1 .col-lg-6{
-    background-color: rgba(239, 231, 231, 0.618);
-    border: 0px solid var(--bs-gray-paragraph);
-    padding: 2px;
-    margin: 5px ;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 25px;
-    border-radius: 3px;
-    width: 450px;
-}
 
-.contact_page  i{
+
+.contact_page .Row_class i{
     font-size: 40px;
     text-align: center;
     margin: 5px;
@@ -313,6 +302,16 @@ p{
     color: var(--orange-color);
     justify-content: space-between;
     
+}
+
+.contact_page .Row_class div{
+    background-color: var(--bg-or-wht);
+   
+   padding: 2px;
+   margin: 2px;
+    
+    
+  
 }
 
 .contact_page .contact_col2 .btn button{
